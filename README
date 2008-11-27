@@ -26,10 +26,16 @@ Currently the following charts are supported:
 
 More support for other available charts/vizualisations to come.  Feel free to help ;-)
 
+
+Installation
+============
+
+in your application's vendor/plugins: git clone git://github.com/philippelegrain/google_vizualisation.git
+
 Usage
 ======
 
-1. Start by including <%= google_vizualisation_include_tag %> into the <head> of your application (in your application.html.erb or any other layout.)
+1. Start by including <%= google_vizualisation_include_tag %> into the <head> of your application (in application.html.erb or any other layout.)
 2. Create any kind of chart (all available charts can be found in google_vizualisation/lib/google_charts directory) in your controller/action i.e.:
 
 @scatter_chart = GoogleCharts::ScatterChart.new(
@@ -40,7 +46,7 @@ Usage
 
 Note: width and height params are mandatory; they will be passed to the javascript object as well as the <div> where the chart is embeded.
 
-3. Add columns to your chart:
+3. Add columns to your chart (each column needs a name and a type.  Available types are: Float(a number), String, Date).
 
 @scatter_chart.add_column("Age",Float)
 @scatter_chart.add_column("Weight",Float)
@@ -84,5 +90,6 @@ As you can see, each column is identified by its name, so name MUST be unique.
         chart.draw(data, {legend: "none",titleX: "Age",height: 240,titleY: "Weight",width: 400,pointSize: 5});
 	}
 </script>
+<div id="e0b216caf7eb624e34869ad603d47e8297f585ee" style="width: 400px; height: 240px;"></div>
 
 Copyright (c) 2008 Philippe Legrain, released under the MIT license

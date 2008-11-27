@@ -1,6 +1,6 @@
 module GoogleVizualisationHelper
   def google_vizualisation_tag(viz)
-    result << viz.render
+    result = viz.render
     result << "\n"
     result << <<-eos
       <div id="#{viz.uid}" style="width: #{viz.width}px; height: #{viz.height}px;"></div>
@@ -10,7 +10,7 @@ module GoogleVizualisationHelper
   end
   
   def google_vizualisation_include_tag
-    <<-eos
+    return <<-eos
       <script type="text/javascript" src="http://www.google.com/jsapi"></script>\n
     eos
   end
