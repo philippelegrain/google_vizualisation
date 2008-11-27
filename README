@@ -1,10 +1,30 @@
 GoogleVizualisation
 ===================
 
-GoogleVizualisation allows you to use Google Vizualisations.
-More information can be found about the different vizualisations can be found here: http://code.google.com/apis/visualization/documentation/gallery.html
-
+GoogleVizualisation allows you to use Google Vizualisations in your rails application easily.
+More information about the different available vizualisations can be found here: http://code.google.com/apis/visualization/documentation/gallery.html
 More information about the API: http://code.google.com/apis/visualization/
+
+Available charts
+================
+
+Currently the following charts are supported:
+- AnnotatedTimeline (as in google finance)
+- AreaChart
+- ImageAreaChart
+- BarChart
+- ImageBarChart
+- ColumnChart
+- Gauge
+- IntensityMap
+- LineChart
+- ImageLineChart
+- MotionChart
+- PieChart
+- ImagePieChart
+- ScatterChart
+
+More support for other available charts/vizualisations to come.  Feel free to help ;-)
 
 Usage
 ======
