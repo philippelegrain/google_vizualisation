@@ -1,7 +1,12 @@
 GoogleVizualisation
 ===================
 
-Introduction goes here.
+GoogleVizualisation allows you to use Google Vizualisations.
+More information can be found about the different vizualisations can be found here: http://code.google.com/apis/visualization/documentation/gallery.html
+
+More information about the API: http://code.google.com/apis/visualization/
+
+
 
 
 Example
@@ -10,4 +15,4 @@ Example
 Example goes here.
 
 
-Copyright (c) 2008 [name of plugin creator], released under the MIT license
+Copyright (c) 2008 Philippe Legrain, released under the MIT license
