@@ -1,1 +1,2 @@
-# Include hook code here
+#require 'google_vizualisation'
+ActionView::Base.send :include, GoogleVizualisationHelper
