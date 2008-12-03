@@ -1,6 +1,8 @@
 GoogleVizualisation
 ===================
 
+The original blog post: http://blog.redstorm.be/2008/12/03/google-vizualisation-plugin-for-rails
+
 GoogleVizualisation allows you to use Google Vizualisations in your rails application easily.
 More information about the different available vizualisations can be found here: http://code.google.com/apis/visualization/documentation/gallery.html
 More information about the API: http://code.google.com/apis/visualization/
